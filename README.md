@@ -40,8 +40,8 @@ _You can use [pin.it](https://pin.it) and [in.pinterest.com](https://in.pinteres
 Download files from MediaFire.
 
 ```js
-const { mediafire } = require('ironman-api');
-//import { mediafire } from 'ironman-api';
+const { mediafire } = require('kinghaki-api');
+//import { mediafire } from 'kinghaki-api';
 
 (async () => {
   console.log(await mediafire('https://www.mediafire.com/xyz.zip'));
@@ -53,8 +53,8 @@ const { mediafire } = require('ironman-api');
 Upload images to Telegraph.
 
 ```js
-const { telegraph } = require('ironman-api');
-//import { telegraph } from 'ironman-api';
+const { telegraph } = require('kinghaki-api');
+//import { telegraph } from 'kinghaki-api';
 
 (async () => {
   console.log(await telegraph('./img.png'));
@@ -67,7 +67,7 @@ Download videos from TikTok.
 
 ```js
 const { tiktok } = require('kinghaki-api');
-//import { tiktok } from 'ironman-api';
+//import { tiktok } from 'kinghaki-api';
 
 (async () => {
   console.log(await tiktok('https://www.tiktok.com/videourl'));
