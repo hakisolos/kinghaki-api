@@ -9,7 +9,7 @@ An API package providing various utilities, including media downloading and proc
 You can install `ironman-api` using npm:
 
 ```bash
-npm install ironman-api
+npm install kinghaki-api
 ```
 
 ## Features
@@ -26,7 +26,7 @@ npm install ironman-api
 Download media from Pinterest.
 
 ```js
-const { pinterest } = require('ironman-api');
+const { pinterest } = require('kinghaki-api');
 //import { pinterest } from 'ironman-api';
 
 (async () => {
@@ -66,7 +66,7 @@ const { telegraph } = require('ironman-api');
 Download videos from TikTok.
 
 ```js
-const { tiktok } = require('ironman-api');
+const { tiktok } = require('kinghaki-api');
 //import { tiktok } from 'ironman-api';
 
 (async () => {
@@ -79,8 +79,8 @@ const { tiktok } = require('ironman-api');
 Upload images to Uguu .
 
 ```js
-const { fileUguu } = require('ironman-api');
-//import { fileUguu } from 'ironman-api';
+const { fileUguu } = require('kinghaki-api');
+//import { fileUguu } from 'kinghaki-api';
 
 (async () => {
   console.log(await fileUguu('./img.png'));
@@ -92,8 +92,8 @@ const { fileUguu } = require('ironman-api');
 M3U8 to MP4
 
 ```js
-const { m3u8 } = require('ironman-api');
-//import { m3u8 } from 'ironman-api';
+const { m3u8 } = require('kinghaki-api');
+//import { m3u8 } from 'kinghaki-api';
 
 const convert = new m3u8();
 convert.InputFile('https://file.m3u8') //also can be a path
@@ -124,6 +124,6 @@ This package is under development, and many exciting features are planned for fu
 
 ## Contributing
 
-We welcome contributions! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request. If you want to contact me, check my [GitHub profile](https://github.com/IRON-M4N).
+We welcome contributions! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request. If you want to contact me, check my [GitHub profile](https://github.com/hakisolos).
 
 Copyright © 2024 IRON-M4N
