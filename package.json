@@ -1,6 +1,6 @@
 {
-  "name": "ironman-api",
-  "version": "2.0.1",
+  "name": "kinghaki-api",
+  "version": "1.0.0",
   "description": "An npm with some features.",
   "main": "index.js",
   "module": "index.mjs",
@@ -25,7 +25,7 @@
     "m3u8-converter",
     "tiktok-dl"
   ],
-  "author": "IRON-M4N",
+  "author": "H4KI-SER",
   "license": "Apache-2.0",
   "dependencies": {
     "axios": "^1.6.7",
@@ -39,10 +39,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IRON-M4N/ironman-api.git"
+    "url": "git+https://github.com/hakisolos/kinghaki-api.git"
   },
   "bugs": {
-    "url": "https://github.com/IRON-M4N/ironman-api/issues"
+    "url": "https://github.com/hakisolos/kinghaki-api/issues"
   },
-  "homepage": "https://github.com/IRON-M4N/ironman-api#readme"
+  "homepage": "https://github.com/hakisolos/kinghaki-api#readme"
 }
