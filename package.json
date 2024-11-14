@@ -1,6 +1,6 @@
 {
   "name": "kinghaki-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An npm with some features.",
   "main": "index.js",
   "module": "index.mjs",
